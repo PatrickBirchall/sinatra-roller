@@ -8,3 +8,8 @@ get '/d20' do
   roll = rand(20) + 1
   "Result: #{roll}"
 end
+
+get '/d10' do
+  roll = rand(10) +1
+  "Result: #{roll}"
+end
